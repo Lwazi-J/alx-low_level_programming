@@ -1,1 +1,1 @@
-The debugging of programs: Finding errors in the programs
+0x03. C - Debugging
