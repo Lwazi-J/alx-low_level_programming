@@ -7,10 +7,10 @@
  *
  * Return: the number of nodes printed
  */
+
 size_t print_list(const list_t *h)
 {
 	size_t s = 0;
-
 	while (h)
 	{
 		if (!h->str)
@@ -20,6 +20,5 @@ size_t print_list(const list_t *h)
 		h = h->next;
 		s++;
 	}
-
 	return (s);
 }
